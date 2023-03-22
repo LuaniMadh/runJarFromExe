@@ -7,7 +7,7 @@
 int main(int argc, char *argv[])
 {
 #if !defined JAR || !defined CALL_CMD
-    printf("Error: please defie JAR in jar.c!\n");
+    printf("Error: please define JAR and CALL_CMD in jar.c!\n");
     return 1;
 #endif
 
