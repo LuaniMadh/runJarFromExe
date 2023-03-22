@@ -1,0 +1,1 @@
+gcc -o runJar .\runJar.c .\jar.c
